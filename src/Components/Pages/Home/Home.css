@@ -1,0 +1,39 @@
+.CardBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px 5%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 450px) {
+    .CardBox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 650px) {
+    .CardBox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 850px) {
+    .CardBox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 851px) and (max-width: 1051px) {
+    .CardBox{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
